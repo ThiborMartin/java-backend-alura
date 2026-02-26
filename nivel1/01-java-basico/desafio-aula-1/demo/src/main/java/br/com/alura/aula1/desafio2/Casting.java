@@ -21,5 +21,10 @@ public class Casting {
         double precoProduto = 5.69;
         int    quantidade   = 37;
         System.out.println("Total do carrinho: R$%.2f".formatted(precoProduto*quantidade));
+
+        //Item 5 do desfaio:
+        double valorEmDolares = 45.99;
+        double cotacaoDolar   = 4.95; 
+        System.out.println("Convertendo U$%.2f para BRL = R$%.2f".formatted(valorEmDolares, (valorEmDolares*cotacaoDolar)));
     }
 }
