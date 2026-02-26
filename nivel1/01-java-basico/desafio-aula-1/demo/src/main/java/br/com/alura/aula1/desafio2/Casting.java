@@ -13,8 +13,13 @@ public class Casting {
         System.out.println("A média de %d e %d é = %d".formatted((int) numero1db, numero2it, ((int)numero1db + numero2it)/2));
 
         //Item 3 do desafio:
-        char letra = 'O';
+        char   letra   = 'O';
         String palavra = "automovel";
         System.out.println(letra + " " + palavra);
+
+        //Item 4 do desafio:
+        double precoProduto = 5.69;
+        int    quantidade   = 37;
+        System.out.println("Total do carrinho: R$%.2f".formatted(precoProduto*quantidade));
     }
 }
