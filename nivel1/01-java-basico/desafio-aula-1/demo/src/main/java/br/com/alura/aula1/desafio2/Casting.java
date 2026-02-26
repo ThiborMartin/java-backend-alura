@@ -12,6 +12,9 @@ public class Casting {
         int    numero2it = 6;
         System.out.println("A média de %d e %d é = %d".formatted((int) numero1db, numero2it, ((int)numero1db + numero2it)/2));
 
-        
+        //Item 3 do desafio:
+        char letra = 'O';
+        String palavra = "automovel";
+        System.out.println(letra + " " + palavra);
     }
 }
