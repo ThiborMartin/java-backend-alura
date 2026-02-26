@@ -1,4 +1,4 @@
-package br.com.alura.aula1;
+package br.com.alura.aula1.desafio1;
 
 public class Estudos {
     public static void main(String[] args) {

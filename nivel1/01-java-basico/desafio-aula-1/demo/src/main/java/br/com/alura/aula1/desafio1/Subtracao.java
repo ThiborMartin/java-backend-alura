@@ -1,4 +1,4 @@
-package br.com.alura.aula1;
+package br.com.alura.aula1.desafio1;
 
 public class Subtracao {
     public static void main(String[] args) {
