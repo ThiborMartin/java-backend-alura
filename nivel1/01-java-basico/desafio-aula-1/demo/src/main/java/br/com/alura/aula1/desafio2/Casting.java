@@ -26,5 +26,10 @@ public class Casting {
         double valorEmDolares = 45.99;
         double cotacaoDolar   = 4.95; 
         System.out.println("Convertendo U$%.2f para BRL = R$%.2f".formatted(valorEmDolares, (valorEmDolares*cotacaoDolar)));
+
+        //Item6 do desafio:
+        double precoOriginal = 32.90;
+        double percentualDisconto = 10;
+        System.out.println("R$%.2f com desconto de %.2f%% = R$%.2f".formatted(precoOriginal, percentualDisconto, (precoOriginal - (precoOriginal*(percentualDisconto/100)))));
     }
 }
